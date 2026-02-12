@@ -67,6 +67,6 @@ int main() {
     cout << "Rectangle Area: " << rectangle->area() << endl;
     cout << "Cube Area: " << cube->area() << endl;
     cout << "Cube Volume: " << cube->volume() << endl;
-    
+    cout << "No unnecessary methods for Square and Rectangle!" << endl;
     return 0;
 }
