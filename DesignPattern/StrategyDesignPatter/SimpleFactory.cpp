@@ -55,8 +55,11 @@ int main(){
     string type ="premium";
 
     BurgerFactory* myBurgerFactory = new BurgerFactory();
-    Burger* burger = myBurgerFactory->createBurger(type);
 
+    Burger* burger = myBurgerFactory->createBurger(type);
+//this is a comment
     burger->prepare();
+    delete burger;
+    delete myBurgerFactory;
     return 0;
 }
